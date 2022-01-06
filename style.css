@@ -25,6 +25,7 @@ h1 {
   display: flex;
   line-height: 2;
   padding-bottom: 10px;
+  text-align: justify;
 }
 #top-section-side {
   line-height: 1.5;
@@ -36,7 +37,7 @@ h1 {
 }
 .explore-button {
   text-decoration: none;
-  background-image: linear-gradient(green, lightgreen);
+  background-image: linear-gradient(rgb(219, 109, 36), rgb(243, 119, 97));
   color: white;
   font-weight: 700;
   padding: 10px 30px;
@@ -75,4 +76,24 @@ h2 {
 }
 #box-3 {
   background-color: rgba(80, 155, 166, 0.2);
+}
+#develop {
+  display: flex;
+  margin: 100px 0px;
+  margin-right: 100px;
+  text-align: justify;
+}
+#develop img {
+  width: 52%;
+  padding-left: 40%;
+}
+#community {
+  display: flex;
+  margin: 100px 0px;
+  margin-left: 120px;
+  text-align: justify;
+}
+#community img {
+  width: 65%;
+  padding-left: 80px;
 }
